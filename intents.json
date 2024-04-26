@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+	"Is anyone available?",
+        "Hello",
+	"Hi, is anyone available?",
+	"Hello, is anyone available?",
+	"Hi, are you online?",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+	"Hello, thanks for contacting us",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+	"Thank you for contacting us!",
+	"Bye! Happy to help",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Welcome!", "No Problem!", "Any time!", "My pleasure", "Any time! We're happy to help."]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+	"What documents can I get?",
+	"Can I request for Form 137?",
+	"Do you release Form 138?",
+	"How about Good Moral?"
+      ],
+      "responses": [
+	"We releases Form 137, Form 138, Good Moral, and Diploma",
+	"You can get Form 137, Form 138, Good Moral, and Diploma",
+	"Yes, you can request for your Form 137",
+	"Yes, we do releases Form 138",
+	"Yes, we releases Good Moral"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Can I pay with Paypal?",
+	"Do you accept GCash?",
+	"Can I pay with PayMaya?",
+	"Do you take cards?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept Cash, GCash, and PayMaya",
+        "We are still working for cards payment"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "What are the admission requirements",
+        "How is the admission process?",
+        "I'm interested in applying for admission.",
+        "How do I get admitted to TUP?"
+      ],
+      "responses": [
+        "To apply for admission, you can visit the University's website and complete the          online application form.",
+        "The admission requirements vary depending on the program you want to apply to. Check the University's website for more details.",
+        "Our admission process typically involves submitting an application (physically), providing academic transcripts, entrance exam, interview, and medical. Once you complete the application, it will be reviewed by the admission committee.",
+        "We're delighted to hear that you're interested in applying for admission! You can start the application by visiting the University's website and exploring the availble programs.",
+        "To get admitted, you will need to meet the admission requirements for your choosen program and submit a complete application."
+      ]
+    },
+    {
+      "tag": "programs",
+      "patterns": [
+	"What are the college department available?",
+	"What are the courses/programs available?",
+	"What program do you offer?",
+	"What college department do you offer?"
+      ],
+      "responses": [
+	"The college department the we offer are College of Industrial Education (CIE), College of Engineering (COE), College of Liberal Arts (CLA), College of Science (COS), College of Architecture and Fine Arts (CAFA), and College of Industrial Technology (CIT). Check the University's website for courses/programs each department offers.",
+	"The available courses/programs can be seen in the University's website.",
+	"Check the University's website for more details about college departments or courses/programs."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
