@@ -1,5 +1,6 @@
 import random
 import json
+import os
 
 import torch
 
@@ -7,11 +8,13 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(os.getcwd())
 
-with open('intents2.json', 'r') as json_data:
+file_path = r'C:\Users\Erik\Desktop\TUP CHATBOT\intents2.json'
+with open(file_path, 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "data.pth"
+FILE = r'C:\Users\Erik\Desktop\TUP CHATBOT\data.pth'
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -52,7 +55,7 @@ if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
         # sentence = "do you use credit cards?"
-        print("/n")
+        
         sentence = input("You: ")
         if sentence == "quit":
             break
