@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TUPseek</title>
+  <link rel="stylesheet" href="TUPseek.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo-container">
+      <img src="tup-logo.png" alt="Logo">
+      <div id="contact-info">
+        <p class="school-name">Technological University of the Philippines</p>
+        <p>Ayala Blvd., Ermita, Manila, 1000, </p>
+        <p> graduate@tup.edu.ph</p>
+        <p> +632-5301-3001 </p>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="main-content">
+    <div class="chat-container">
+      <div id="chat-box"></div>
+      <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="LSC.jpg" style="width:100%">
+      </div>
+
+      <div class="slide fade">
+        <img src="MBG.jpg" style="width:100%">
+      </div>
+
+      <div class="slide fade">
+        <img src="dea.png" style="width:100%">
+      </div>
+
+      <div class="slide fade">
+        <img src="raine.png" style="width:100%">
+      </div>
+
+      <div class="slide fade">
+        <img src="eka.png" style="width:100%">
+      </div>
+
+      <div class="slide fade">
+        <img src="alex.png" style="width:100%">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="announcements-container">
+    <p>Announcements</p>
+    <div class="announcement">TEMPLATE</div>
+  </div>
+  
+  <script>
+    let slideIndex = 0;
+    showSlides();
+  
+    function showSlides() {
+      let i;
+      const slides = document.getElementsByClassName("slide");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000);
+    }
+  </script>
+  <script>
+    $SCRIPT_ROOT = {{ request,script_root|tojson }};
+  </script>
+  <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+   
+</body>
+</html>
