@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url(bg.gif) no-repeat center center fixed;
+  background: url('/static/images/bg.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -50,12 +50,44 @@ body {
 
 #chat-box {
   height: 446px;
-  overflow-y: auto;
+  overflow-y: scroll;
   margin-bottom: 10px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 5px;
+}
+
+.messages__item {
+  background: #f0f0f0; 
+  max-width: 60.6%;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 20px; 
+  margin-bottom: 8px; 
+} 
+
+.message_bot {
+  display: flex;
+  align-items: center;
+}
+
+.drea-icon {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.messages__item--operator {
+  background: #ffcccc; /* Light red background for operator messages */
+  color: black; /* Red text color for operator messages */
+  margin-left: auto;
+}
+
+.messages__item--visitor {
+  background: #cccccc; /* Light gray background for visitor messages */
+  color: black; /* Dark text color for visitor messages */
+  margin-right: auto;
 }
 
 #user-input {
