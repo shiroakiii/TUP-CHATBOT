@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "intents": [
     {
@@ -286,3 +287,293 @@
     
   ]
 }
+=======
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, I'm Drea, your friendly virtual assistant! What's on your mind?",
+        "Hi there! I'm Drea, here to brighten your day. How can I assist you?",
+        "Hello! I'm Drea, ready to make your day a little better. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Farewell! Have an amazing day ahead!",
+        "Goodbye! Remember, I'm just a message away if you need anything!",
+        "Take care and see you soon! 😊"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "You're welcome! It's my pleasure to assist you!",
+        "Glad I could help! Don't hesitate to reach out if you need anything else!",
+        "No problem at all! Helping you is what I'm here for!"
+      ]
+    },   
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+      	"Admission requirements",
+	      "New Applicants",
+      	"What are the admission requirements for new applicants?",
+      	"Requirements for new applicants",
+      	"Admission criteria",
+	      "Freshmen requirements"
+      ],
+      "responses": [
+          "The admission requirements for new applicants are as follows:\n 1. Must pass the oral and written admission tests\n 2. Must possess good moral character\n 3. Must be physically and mentally fit\n 4. Must meet the grade/other requirements in the respective course being applied for (e.g. for engineering, architecture and other science courses)\n 5. Must have a grade of 80% or better in Math, Science and English subjects\n 6. Must be a high school graduate (for transferees: no failing grade in any subject and may apply only in the engineering echnology courses)\n 7. Must sign/comply with the Student Pledge"
+      ]
+    },
+    {
+      "tag": "manila_campus",
+      "patterns": [
+	      "Courses in TUP Manila",
+        "What programs are available at the TUP-Manila campus?",
+      	"Tell me about academic programs in TUP Manila",
+      	"TUP Manila campus academic offerings"
+      ],
+      "responses": [
+        "The TUP Manila campus offers a variety of academic programs across different colleges. These are the academic programs offered at the campus:\n\n1. College of Architecture and Fine Arts (CAFA)\n\nMaster in Architecture\nMaster in Graphics Technology\nBachelor of Science in Architecture\nBachelor of Fine Arts major in Advertising\nBachelor in Graphics Technology\nMajors in Architecture Technology, Industrial Design, Mechanical Drafting Technology\nThree-Year Diploma Courses in Graphics Technology, Product Design and Development Technology\n\n2. College of Industrial Education (CIE)\n\nDoctor of Education (with majors in Career Guidance, Industrial Education Management)\nMaster of Arts in Industrial Education (with majors in Administration and Supervision, Curriculum and Instruction, Educational Technology, Guidance and Counseling)\nMaster of Technology Education\nMaster of Arts in Teaching (with a major in Technology and Home Economics)\nBachelor of Science in Industrial Education (with majors in Art Education, Computer Education, Electrical Technology, Electronics Technology, Home Economics, Industrial Arts)\nBachelor of Technical Teacher Education\n\n3. College of Liberal Arts (CLA)\n\nDoctor of Management Science\nMaster in Management\nBachelor of Arts in Management (with a major in Industrial Management)\nBachelor of Science in Entrepreneurial Management\n\n4. College of Engineering (COE)\n\nMaster of Engineering Program\nMaster of Science in Civil Engineering\nMaster of Science in Electrical Engineering\nMaster of Science in Mechanical Engineering\nBachelor of Science in Civil Engineering\nBachelor of Science in Electrical Engineering\nBachelor of Science in Electronics Engineering\nBachelor of Science in Mechanical Engineering\n\n5. College of Science (COS)\n\nMaster of Arts in Teaching (with majors in Chemistry, General Science, Mathematics, Physics)\nBachelor in Applied Science (with a major in Laboratory Technology)\nBachelor of Science in Computer Science\nBachelor of Science in Environmental Science\nBachelor of Science in Information Technology\nBachelor of Science in Information Systems\n\n6. College of Industrial Technology (CIT)\n\nDoctor of Philosophy in Technology Management\nDoctor of Technology\nMaster of Information Technology\nMaster of Technology\nBachelor of Science in Food Technology\nBachelor of Science in Hotel and Restaurant Management\nBachelor of Technology (with a major in Information Technology)\nThree-Year Engineering Technology (Diploma) Courses in various fields such as Apparel and Fashion Technology, Automotive Engineering Technology, Civil Engineering Technology, etc."
+      ]
+    },
+    {
+      "tag": "COS_courses",
+      "patterns": [
+        "What are the courses under College of Science",
+        "COS list of courses",
+        "COS programs",
+        "COS",
+        "College of Science"
+      ],
+      "responses": [
+        "College of Science (COS)\n\nMaster of Arts in Teaching (with majors in Chemistry, General Science, Mathematics, Physics)\nBachelor in Applied Science (with a major in Laboratory Technology)\nBachelor of Science in Computer Science\nBachelor of Science in Environmental Science\nBachelor of Science in Information Technology\nBachelor of Science in Information Systems."
+      ]
+    },
+    {
+      "tag": "CAFA_courses",
+      "patterns": [
+        "What are the courses under College of Architecture and Fine Arts",
+        "CAFA list of courses",
+        "CAFA programs",
+        "CAFA",
+        "College of Architecture and Fine Arts"
+      ],
+      "responses": [
+        "College of Architecture and Fine Arts (CAFA)\n\nMaster in Architecture\nMaster in Graphics Technology\nBachelor of Science in Architecture\nBachelor of Fine Arts major in Advertising\nBachelor in Graphics Technology\nMajors in Architecture Technology, Industrial Design, Mechanical Drafting Technology\nThree-Year Diploma Courses in Graphics Technology, Product Design and Development Technology."
+      ]
+    },
+    {
+      "tag": "CIE_courses",
+      "patterns": [
+        "What are the courses under College of Industrial Education",
+        "CIE list of courses",
+        "CIE programs",
+        "CIE",
+        "College of Industrial Education"
+      ],
+      "responses": [
+        "College of Industrial Education (CIE)\n\nDoctor of Education (with majors in Career Guidance, Industrial Education Management)\nMaster of Arts in Industrial Education (with majors in Administration and Supervision, Curriculum and Instruction, Educational Technology, Guidance and Counseling)\nMaster of Technology Education\nMaster of Arts in Teaching (with a major in Technology and Home Economics)\nBachelor of Science in Industrial Education (with majors in Art Education, Computer Education, Electrical Technology, Electronics Technology, Home Economics, Industrial Arts)\nBachelor of Technical Teacher Education."
+      ]
+    },
+    {
+      "tag": "CLA_courses",
+      "patterns": [
+        "What are the courses under College of Liberal Arts",
+        "CLA list of courses",
+        "CLA programs",
+        "CLA",
+        "College of Liberal Arts"
+      ],
+      "responses": [
+        "College of Liberal Arts (CLA)\n\nDoctor of Management Science\nMaster in Management\nBachelor of Arts in Management (with a major in Industrial Management)\nBachelor of Science in Entrepreneurial Management."
+      ]
+    },
+    {
+      "tag": "COE_courses",
+      "patterns": [
+        "What are the courses under College of Engineering",
+        "COE list of courses",
+        "COE programs",
+        "COE",
+        "College of Engineering"
+      ],
+      "responses": [
+        "College of Engineering (COE)\n\nMaster of Engineering Program\nMaster of Science in Civil Engineering\nMaster of Science in Electrical Engineering\nMaster of Science in Mechanical Engineering\nBachelor of Science in Civil Engineering\nBachelor of Science in Electrical Engineering\nBachelor of Science in Electronics Engineering\nBachelor of Science in Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "CIT_courses",
+      "patterns": [
+        "What are the courses under College of Industrial Technology",
+        "CIT list of courses",
+        "CIT programs",
+        "CIT",
+        "College of Industrial Technology"
+      ],
+      "responses": [
+        "College of Industrial Technology (CIT)\n\nDoctor of Philosophy in Technology Management\nDoctor of Technology\nMaster of Information Technology\nMaster of Technology\nBachelor of Science in Food Technology\nBachelor of Science in Hotel and Restaurant Management\nBachelor of Technology (with a major in Information Technology)\nThree-Year Engineering Technology (Diploma) Courses in various fields such as Apparel and Fashion Technology, Automotive Engineering Technology, Civil Engineering Technology, etc."
+      ]
+    },
+    {
+      "tag": "admission_requirements_continuum_ladderized",
+      "patterns": [
+        "Continuum/Ladderized Program admission requirements",
+        "Requirements for applicants in the Continuum/Ladderized Program",
+        "What are the requirements for Continuum/Ladderized Program applicants?",
+        "Admission criteria for Continuum/Ladderized Program"
+      ],
+      "responses": [
+        "The admission requirements for applicants in the Continuum/Ladderized Program are as follows:\n1. Must pass the interview and the written/oral exams\n2. Must meet the grade requirements of the course being applied for\n3. Must be of good moral character\n4. Must be physically and mentally fit\n5. Must be a graduate of diploma courses\n6. Must sign/comply with the Student Pledge"
+      ]
+    },
+    {
+      "tag": "admission_requirements_masters_doctorate",
+      "patterns": [
+        "Master's and Doctorate Programs admission requirements",
+        "Requirements for applicants in Master's and Doctorate Programs",
+        "What are the requirements for Master's and Doctorate Program applicants?",
+        "Admission criteria for Master's and Doctorate Programs"
+      ],
+      "responses": [
+        "The admission requirements for applicants in the Master's and Doctorate Programs are as follows:\n1. Must be a graduate of a relevant Bachelor or Master’s degree\n2. Must pass the oral and written tests\n3. Must be physically and mentally fit\n4. Must be of good moral character\n5. Must meet the other entry requirements of the program"
+      ]
+    },
+    {
+      "tag": "admission_requirements_foreign_students",
+      "patterns": [
+        "Admission requirements for foreign students",
+        "Requirements for foreign student applicants",
+        "What are the requirements for foreign student applicants?",
+        "Admission criteria for foreign students"
+      ],
+      "responses": [
+        "The admission requirements for foreign student applicants are as follows:\n1. Must have proof of English proficiency\n2. Must pass the Admission Test\n3. Must have proof of Psychological and Physical fitness\n4. Must submit the necessary documents, e.g. student visa/Visa Conversion, to the Office of the University Registrar\n5. Must submit the Transcript of Records/Scholastic Records duly authenticated by the Philippine Foreign Service Post located in the student applicant’s country of origin or legal residence\n6. Must have a Notarized Affidavit of Support including bank statements, Notarized Notice of Grant for institutional scholars to cover expenses for the students’ accommodation and subsistence, as well as other school dues and other incidental expenses\n7. Must have a Photocopy of the data page of the student’s passport showing the date and place of birth, and the birth certificate or its equivalent, duly authenticated by the Philippine Foreign Service Post\n8. Must have a National Intelligence Coordinating Agency (NICA) Clearance\n9. Must have a Bureau of Quarantine Clearance\n10. Must sign/comply with the Student Pledge"
+      ]
+    },
+    {
+      "tag": "transfer_students",
+      "patterns": [
+        "Transfer of students",
+        "Requirements for student transfer",
+        "What are the requirements for transferring students?",
+        "Transfer criteria"
+      ],
+      "responses": [
+        "The transfer requirements for students are as follows:\n1. A student from a campus of the University is allowed to transfer to another TUP campus; provided that he satisfies the admission requirements of the program in the college concerned.\n2. A transfer student from other SUCs may be admitted provided that he has no failed / dropped mark and he satisfies the admission requirements of the program in the college concerned.\n3. A transfer student from private institutions may be admitted to any three-year program of the University provided that he has no failed/dropped mark and he satisfies the admission requirements of the program in the college concerned.\n4. Any student who intends to transfer to another school, college or university must be cleared of all liabilities and responsibilities (administrative, academic and financial) in the University. The necessary documents for transfer could be secured from the Office of the Registrar."
+      ]
+    },
+    {
+      "tag": "dropping_subject",
+      "patterns": [
+        "Dropping of subject",
+        "Procedure for dropping subject",
+        "How to drop a subject?"
+      ],
+      "responses": [
+        "A student may drop a subject or subjects any time before the midterm. The procedure for dropping a subject is as follows:\n1. The student must write a letter noted (whenever applicable) by the parent/guardian (specifying the reason/s for dropping). The Dean of the College must approve the dropping of the subject.\n2. The approved letter must be presented to the Guidance personnel and a dropping form must be secured.\n3. The dropping form must be accomplished and the subject professor and the Dean of the College must sign it.\n4. Copies of the dropping form must be presented to the offices concerned"
+      ]
+    },
+    {
+      "tag": "leave_of_absence",
+      "patterns": [
+        "Leave of absence",
+        "Taking a leave from studies",
+        "How to apply for a leave of absence?",
+        "LOA"
+      ],
+      "responses": [
+        "The process for taking a leave of absence is as follows:\n1. A student may take a leave of absence by submitting a written request addressed to the Dean/Assistant to the Director of Academic Affairs (ADAA) indicating the reasons and duration for the leave of absence which must not exceed one academic year (2 semesters or 3 terms). The intention of the leave of absence shall be presented to the faculty adviser/department head concerned for appropriate action and shall be subject to the approval of the Dean/Assistant to the Director of Academic Affairs (ADAA).\n2. No leave of absence shall be granted two weeks before the last day of classes of a semester/term. If the inability of the student to continue attending classes within the above period is for reasons of health or similar justifiable cause, the absence shall be considered 'excused'. The student shall then be required to present to the faculty members concerned a letter of excuse and to make up for lessons/work missed.\n3. Returning students who did not apply for a leave of absence and have been out of the campus beyond the allowable maximum period of one (1) academic year shall be readmitted on a probationary basis within the maximum residency rule."
+      ]
+    },
+    {
+      "tag": "graduation_application",
+      "patterns": [
+        "Application for graduation",
+        "Graduation application process",
+        "How to apply for graduation?"
+      ],
+      "responses": [
+        "The process for applying for graduation is as follows:\n1. The period of application for graduation shall be announced by the University Registrar in accordance with the approved University calendar.\n2. A student who has completed all the requirements of his program as of the last day of the current term/semester without any pending case in the university may apply for graduation."
+      ]
+    },
+    {
+      "tag": "clearance_application",
+      "patterns": [
+        "Application for clearance",
+        "Clearance application process",
+        "How to apply for clearance?"
+      ],
+      "responses": [
+        "A student who has completed all the academic requirements without any pending case in the University or who has already graduated or who wishes to transfer to another school must submit a duly accomplished clearance form before applying for any of the following: transcript of records, certification, certificate of transfer credential. Clearance forms are available at the Registrar’s Office. Before the release of the credentials, the student is required to surrender his university ID to the Office of Student Affairs."
+      ]
+    },
+    {
+      "tag": "uniform_schedule",
+      "patterns": [
+        "Uniform schedule",
+        "When should students wear uniforms?"
+      ],
+      "responses": [
+        "Students are required to wear their prescribed uniforms bearing the TUP IPO-registered logo on Monday, Tuesday, Thursday, and Friday."
+      ]
+    },
+    {
+      "tag": "haircut_male_students",
+      "patterns": [
+        "Haircut for male students",
+        "Male students haircut requirement"
+      ],
+      "responses": [
+        "Male students shall sport a clean and decent haircut regardless of whether the student is enrolled or not in the NSTP."
+      ]
+    },
+    {
+      "tag": "hair_color",
+      "patterns": [
+        "Hair color",
+        "Dyeing hair"
+      ],
+      "responses": [
+        "All students are not allowed to have their hair dyed."
+      ]
+    },
+    {
+      "tag": "id_requirement",
+      "patterns": [
+        "ID requirement",
+        "Identification card requirement"
+      ],
+      "responses": [
+        "Every student shall wear the official identification card (ID) at all times inside the university.\nIn case of lost identification card (ID), present your Certificate of Registration (COR)."
+      ]
+    },
+    {
+      "tag": "tup_anthem",
+      "patterns": [
+        "Himno ng TUP",
+        "TUP hymn",
+        "What is the TUP anthem?",
+        "TUP song"
+      ],
+      "responses": [
+        "Himno ng TUP\n\nKami sayo'y nagpupugay TUP\nAng iyong tanglaw liwanag sa aming landas\nDiwa mo'y ginto pusong wagas\nAlay namin sa iyo'y lahat ng hirap\nBuong pag-ibig at paglilingkod na ganap\nKay rami ng anak na iyong pinagyaman\nDahil sa iyo ngayo'y haligi ng bayan\nMoog ka ng laya at dangal\nTeknolohikal na Unibersidad ng Pilipinas\nBantayog ka ng lahi naming minamahal"
+      ]
+    }
+    
+  ]
+}
+>>>>>>> 957a49d74b47a91c3e61e830c1de0b334f055706
